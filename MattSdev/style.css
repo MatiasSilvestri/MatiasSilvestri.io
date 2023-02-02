@@ -1,0 +1,449 @@
+/*TERMINADO: No Tocar Nada*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:auto; 
+  overflow:calc(0px, 0px);
+  
+}
+html{
+  scroll-behavior:smooth;
+}
+.Menu::-webkit-scrollbar{
+  transition: .5s linear;
+  background-color:aliceblue;
+  display: none;
+  overflow:calc(0px, 0px);
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.b1{
+  background-position: center;
+}
+
+.b1:hover{
+  color: aqua;
+  background-position: center;
+  background-color:aliceblue;
+  width: auto;
+}
+
+
+.b2:hover, .b3:hover{
+  text-decoration-color: rgba(255, 255, 255, 0.986);
+  color:rgba(66, 138, 246, 0.986);;
+  transform:scale(1);
+  transition: 8s ease-in-out;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  min-width: 1vh;
+}
+.SOBRE-MItxt, .p{
+  backdrop-filter:blur(10px);
+  text-decoration-color: black;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-inline: 2pc;
+  min-width: 5vh;
+}
+
+.iconito{
+  padding:absolute;
+  padding: 20px 50px;
+}
+body{
+  font-family:sans-serif;
+  background: url(Pikachu2.jpg);
+  height: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  overflow-y:none;
+  overflow-y: none;
+  transition: .8s;
+  background-size:cover;
+}
+.Logo{
+  text-align:center;
+  background-position: center;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.icon-me{
+  width:280px;
+  border-radius: 535%;
+}
+.icon-me:hover{
+  border-color: white;
+}
+.iconito{
+  background-color: aliceblue;
+  width:50px;
+}
+.CV, .a{
+  border-color:transparent ;
+  border-radius: 23px;
+  text-decoration-color: white;
+  background-color: rgb(156, 156, 156);
+  width: 140px;
+}
+.CV:hover, .a:hover{
+  border-radius: 23PX;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  transition:all 0.2s;
+  color: white;
+  box-shadow: 0 0px  0px rgb(0, 0, 0);
+  margin-right: 0px;
+  width: 140px;
+}
+
+.SOBRE-MItxt:hover{
+  color:rgb(255, 255, 255);
+}
+.GitHub:hover{
+  color: rgba(66, 138, 246, 0.986);
+  transition:all 0.2s ;
+}
+.Linkedin:hover,.correo:hover{
+  box-shadow: 0 1px 1px 1px rgb(255, 255, 255);
+  transition:all 0.2s ;
+  transform:scale(4);
+}
+
+.SOBRE-MItxt{
+  justify-content:flex-end;
+  margin-inline: 2pc;
+  border-radius: 2px;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.576);
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.585);
+}
+
+.SOBRE-MItxt{
+  font-size: .9rem;
+  transition:all 3s ease;
+  transition:all 0.9s ;
+}
+.b1, .b2, .b3, .b4{
+  color:rgb(0, 0, 0);
+  background-color:rgba(255, 255, 255, 0);
+  box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  background-position: center;
+  text-decoration: rgb(255, 255, 255);
+  text-decoration: rgb(255, 255, 255);
+  margin-right: 5%;
+  width: 130px;
+  text-shadow: 0 1px rgb(0, 0, 0);
+  transition:all 0.4s ;
+}
+.Post, .title123{
+  justify-content:flex-end;
+  text-align: center;
+  background-position: center;
+  color:rgb(0, 0, 0);
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  overflow-x:none;
+  overflow-y:none; 
+}
+.Post, .post{
+  stroke-width: 0%;
+}
+.post-img, .h2, .p{
+  font-family: 'Mukta', sans-serif;
+  font-size: .9rem;
+}
+.post-img, .h2, .p:hover{
+  font-family: 'Mukta', sans-serif;
+  width: auto;
+}
+.title123::-webkit-scrollbar{
+  overflow-y:none; 
+  overflow-x:none; 
+}
+
+.title123:hover, .Habilidades{
+  color: rgb(0, 102, 255);
+  transform:scale(1.0);
+  transition:all 3s ease;
+  transition:all 0.4s ;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  overflow-y:none; 
+  overflow-x:none; 
+  margin: 4px;
+}
+.imgPost{
+  width: 100%;
+  display: center;
+  box-sizing: 0px 3px 5px rgba(15);
+}
+.imgPost{
+  width: 10%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.post-list{
+  display: auto;
+  min-width: 10vh;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 1px;
+  margin: 1pc;
+  overflow-y:none;
+  overflow-x:none;
+}
+.post{
+  color: rgb(0, 0, 0);
+  background-position: center;
+  justify-content: space-between;
+  text-align: center;
+  overflow-y:none;
+  overflow-x:none;
+  width: auto;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:15px;
+  max-width: auto;
+  margin:auto;
+}
+.post-img1{
+  background: url(imagen1.png);
+  width: 100%;
+  height: 145px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  margin-block-end:42px;
+}
+.post-img2{
+  background: url(imagen1.png);
+  width: 70px;
+  height: 155px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  margin-block-end:42px;
+}
+.button:hover{
+  text-decoration:yellow;
+  background-color:aliceblue;
+}
+.Menu, .button:hover{
+  padding: 20px;
+  margin: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.Menu:hover{
+  transition:all 3s ease;
+  transition:all 4s;
+}
+
+.Linkedin, .correo, .GitHub{
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0%;
+  transition: .0s;
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0);
+  text-shadow: rgba(255, 255, 255, 0.498);
+  text-decoration:rgba(255, 255, 255, 0.699);
+  color: rgb(255, 255, 255);
+  margin-right: 0px;
+  width: 160px;
+}
+
+.Post, .example::-webkit-scrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.example{
+  overflow-y:none; 
+  overflow-x:none; 
+}
+
+.info{
+  width: 50%;
+  margin-right: 2px;
+  color:rgb(255, 255, 255);
+  border-radius: none;
+  background-color:rgb(12, 47, 224);
+  border: none;
+}
+
+.info:hover{
+  margin-left: 0px;
+  border-radius: none;
+  background-color: rgba(0, 0, 0, 0.697);
+  text-decoration-color:white;
+  width:40%;
+  background-image:url("img/pokebola.png");
+  background-repeat: no-repeat;
+}
+
+.post{
+  backdrop-filter:blur(10px);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-padding-inline-end:none;
+  text-decoration: turquoise;
+  background-color:rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 1);
+  transition: .4s;
+  width: auto;
+}
+
+.post:hover{
+  scroll-padding-inline-end:none;
+  color:white;
+  background-color:rgba(0, 0, 0, 0.75);
+  transform:translateY(-4px);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 15);
+  stroke-width: 0%;
+}
+
+.content{
+  border-radius: 60px;
+}
+
+.post-header{
+  width: 100%;
+  height: 200px;
+  cursor:pointer;
+  scroll-padding-inline-end:none;
+}
+
+.post:hover .post-img1,
+.post:hover .post-img2,
+.post:hover .post-img3{
+  transform:scale(1.1);
+}
+
+.button, .a{
+  background-color:transparent;
+  border-radius: none;
+  text-decoration: none;
+}
+
+.Habilidades{
+  justify-content: center;
+  background-position-x: center;
+  margin-inline: center;
+}
+.Habilidades:hover{
+  color:rgb(0, 102, 255);
+}
+.Habilidades{
+  color: rgb(0, 0, 0);
+  background-position: center;
+  text-align:center;
+  width: 100%;
+  justify-content:center;
+  text-align: center;
+  background-position: center;
+  margin: 0.1px;
+  margin-inline: center;
+}
+.Habilidades{
+  display: center;
+  position:center;
+  text-align:center;
+  background-position: center;
+  justify-content:center;
+}
+.icon{
+  width: 200px;
+}
+.icon:hover{
+  width: 109px;
+  background-color: aqua;
+}
+.Logo, h1{
+  display: center;
+  justify-content: center;
+  background-position: center;
+  color: white;
+}
+
+.Logo:hover{
+  margin-top: solid;
+  width: auto;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.498);
+}
+
+.Post,.h1:hover{
+  width: auto;
+  color: rgba(0, 0, 0, 0.999);
+}
+.a{
+  text-decoration: none;
+}
+
+.conocimientosEn{
+  transition:all 1s ease;
+  transform:scale(1);
+  text-align:center;
+  border-radius: 30%;
+  background-color:white;
+  align-items: center;
+  width: 150px;
+  margin: -1px;
+}
+
+.conocimientosEn:hover{
+  border-radius: 0%;
+  resize: calc();
+  background-color: rgba(0, 0, 0, 0.697);
+  width: 150px;
+  transition: 0s;
+  margin: 0px;
+}
+.b1:hover, .b2:hover, .b3:hover {
+  transition: 0s;
+}
+.Menu::-webkit-scrollbar{
+  transition: 9s;
+}
+.imgPost{
+  width: 15vw;
+  max-width: calc(90px 100px);
+  min-width: 90px;
+  margin: auto;
+}
+.imgPost{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px;
+}
+
+.h2, .Habilidades{
+  background-position: center;
+}
+.p{
+  width: 1rem;
+  @media screen and (max-width: 540px){
+    font-size: 12px;
+  }
+}
+.upBTN{
+  color: rgb(162, 162, 162);
+}

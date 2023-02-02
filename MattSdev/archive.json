@@ -1,0 +1,27 @@
+{
+  "SOBRE-MItxt":{
+    "title":"SOBRE-MItxt",
+    "sescription":"text"
+  },
+
+  "Habilidades":{
+    "title":"Habilidades",
+    "sector": null ,
+    "sescription":"text"
+  },
+
+  "Post":{
+    "title":"title123",
+    "date":"fecha",
+    "sector": null ,
+    "sescription":"text"
+  },
+  "CV":{
+    "title":"CV",
+    "sescription":".PDF"
+  },
+  "Menu":{
+    "title":"SOBRE-MItxt",
+    "sescription":"text"
+  }
+}
